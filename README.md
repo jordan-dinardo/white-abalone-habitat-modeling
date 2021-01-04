@@ -16,4 +16,19 @@ White abalone (Haliotis sorenseni) was once commonly found in coastal waters of 
 
 ### **Coarse-scale Data**
 
+### CDFW bathymetry data
+
+### CalCOFI sea surface temperature data
+
+### Bio-Oracle projected sea surface temperature data
+
 ### **Fine-scale Data**
+
+### CSUMB SFML bathymetry data
+
+### SBC LTER kelp canopy area and biomass data
+Bell, T, K. Cavanaugh, D. Siegel. 2020. SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing) ver 13. Environmental Data Initiative. https://doi.org/10.6073/pasta/5d3fb6fd293bd403a0714d870a4dd7d8.
+
+### REEF white abalone competitors and predators abundance data
+
+
