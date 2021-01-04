@@ -1,12 +1,18 @@
 # white-abalone-habitat-modeling
 Data repository for white abalone habitat models (PLOS ONE 2021 publication)
 
-#Manuscript number
+## **Manuscript number**
 PONE-D-20-33702
 
-#DOI of manuscript
+## **DOI of manuscript**
 
-#Article title
+## **Article title**
 Modeling the past, present, and future distributions of endangered white abalone (Haliotis sorenseni) to inform recovery efforts in California
 
-#Abstract
+## **Abstract**
+
+## **Content**
+
+### **Coarse-scale Data**
+
+### **Fine-scale Data**
