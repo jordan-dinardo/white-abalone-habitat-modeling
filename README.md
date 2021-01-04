@@ -16,21 +16,46 @@ White abalone (Haliotis sorenseni) was once commonly found in coastal waters of 
 ## **Coarse-scale data**
 
 ### CDFW bathymetry data
+### _Description_
+
+### _References_
+Teal K, Richardson A, Wong-Coppin V. Bathymetry Project (Second Edition). 2002. California Department of Fish and Game, Monterey, California.https://www.wildlife.ca.gov/Conservation/Marine/GIS/Downloads. 
 
 ### CalCOFI sea surface temperature data
+### _Description_
 
-### Bio-Oracle projected sea surface temperature data
+### _References_
+NOAA SWFSC. CalCOFI NOAAHydros. 2017. ERDDAP. https://coastwatch.pfeg.noaa.gov/erddap/tabledap/erdNOAAhydros.graph 
+
+### Bio-ORACLE projected sea surface temperature data
+### _Description_
+
+### _References_
+Bio-ORACLE (2017).Bio-ORACLE data. Bio-ORACLE. https://www.bio-oracle.org/downloads-to-email.php
+
 Tyberghein L, Verbruggen H, Pauly K, Troupin C, Mineur F, De Clerck O (2012) Bio-ORACLE: A global environmental dataset for marine species distribution modelling. Global Ecology and Biogeography, 21, 272–281.
 
 Assis, J., Tyberghein, L., Bosh, S., Verbruggen, H., Serrão, E. A., & De Clerck, O. (2017). Bio-ORACLE v2.0: Extending marine data layers for bioclimatic modelling. Global Ecology and Biogeography.
 
+
 ## **Fine-scale data**
 
 ### CSUMB SFML bathymetry data
+### _Description_
+
+### _References_
+CSUMB SFML (2008). SFML Data. CSUMB SFML. https://seafloor.otterlabs.org/SFMLwebDATA.htm
 
 ### SBC LTER kelp canopy area and biomass data
-Bell, T, K. Cavanaugh, D. Siegel. 2020. SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing) ver 13. Environmental Data Initiative. https://doi.org/10.6073/pasta/5d3fb6fd293bd403a0714d870a4dd7d8.
+### _Description_
+
+### _References_
+Bell, T, K. Cavanaugh, D. Siegel (2020). SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing) ver 13. Environmental Data Initiative. https://doi.org/10.6073/pasta/5d3fb6fd293bd403a0714d870a4dd7d8.
 
 ### REEF white abalone competitors and predators abundance data
+### _Description_
+
+### _References_
+REEF (2017). REEF Volunteer Survey Project Fish data collected in REEF Zone 42. REEF. https://www.reef.org/db/reports/geo?end_date=2021-01-04&format_type=chart&group_type=species&language=common&region_code=PAC&start_date=1993-01-01&zone_map=1&zone_group_id=42
 
 
