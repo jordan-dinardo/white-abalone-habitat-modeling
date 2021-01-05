@@ -13,7 +13,7 @@ Modeling the past, present, and future distributions of endangered white abalone
 White abalone (Haliotis sorenseni) was once commonly found in coastal waters of the Southern California Bight (SCB) and south to Punta Abreojos, Baja California, Mexico. During the 1970s, white abalone supported a commercial fishery, which remarkably reduced the population and resulted in the closure of the fishery in 1996. When population levels continued to decline, National Marine Fisheries Service (NMFS) listed the species as endangered under the Endangered Species Act. The California Department of Fish and Wildlife and NMFS began surveying the wild populations, propagating specimens in captivity, and protecting its seabed habitat. We modeled coarse-scale (17 x 17 km) historical (using fishery-dependent data [1955-1996]) and contemporary (using fishery-independent data [1996-2017]) distributions of white abalone throughout its historical domain using random forests and maximum entropy (MaxEnt), respectively, and its fine-scale (10 x 10 m) contemporary distribution (fishery-independent data) using MaxEnt. We also investigated potential outplanting habitat farther north under two scenarios of future climate conditions. The coarse-scale models identified potential regions to focus outplanting efforts within SCB while fine-scale models can inform population monitoring and outplanting activities in these particular areas. These models predict that areas north of Point Conception may become candidate outplant sites as seawater temperatures continue to rise in the future due to climate change. Collectively, these results provide guidance on the design and potential locations for experimental outplanting at such locations to ultimately improve methods and success of recovery efforts.
 
 
-## **Coarse-scale data**
+## **Coarse-scale environmental data**
 
 ### CDFW bathymetry data
 ### _Description_
@@ -41,7 +41,7 @@ Tyberghein L, Verbruggen H, Pauly K, Troupin C, Mineur F, De Clerck O (2012) Bio
 Assis, J., Tyberghein, L., Bosh, S., Verbruggen, H., Serrão, E. A., & De Clerck, O. (2017). Bio-ORACLE v2.0: Extending marine data layers for bioclimatic modelling. Global Ecology and Biogeography.
 
 
-## **Fine-scale data**
+## **Fine-scale environmental data**
 
 ### CSUMB SFML bathymetry data
 ### _Description_
