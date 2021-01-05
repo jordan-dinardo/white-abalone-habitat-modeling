@@ -51,13 +51,14 @@ CSUMB SFML (2008). SFML Data. CSUMB SFML. https://seafloor.otterlabs.org/SFMLweb
 
 ### SBC LTER kelp canopy area and biomass data
 ### _Description_
-SBCLTER_kelp file contains 
+SBCLTER_kelp file contains netCDF files of kelp biomass used to derive kelp persistence and associated metadata. 
 
 ### _References_
 Bell, T, K. Cavanaugh, D. Siegel (2020). SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing) ver 13. Environmental Data Initiative. https://doi.org/10.6073/pasta/5d3fb6fd293bd403a0714d870a4dd7d8.
 
 ### REEF white abalone competitors and predators abundance data
 ### _Description_
+represents conains data on competitor and predator abundance. The provided public data is somewhat aggregated. A data request through REEF.org is required for more detailed data. 
 
 ### _References_
 REEF (2017). REEF Volunteer Survey Project Fish data collected in REEF Zone 42. REEF. https://www.reef.org/db/reports/geo?end_date=2021-01-04&format_type=chart&group_type=species&language=common&region_code=PAC&start_date=1993-01-01&zone_map=1&zone_group_id=42
