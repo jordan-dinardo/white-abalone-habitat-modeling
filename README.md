@@ -17,21 +17,21 @@ White abalone (Haliotis sorenseni) was once commonly found in coastal waters of 
 
 ### CDFW bathymetry data
 ### _Description_
-CDFW_bathy file contains a shapefile representing ocean's depth (m) relative to sea level at a spatial resolution of 200 x 200 m. 
+CDFW-bathy file contains a shapefile representing ocean's depth (m) relative to sea level at a spatial resolution of 200 x 200 m. 
 
 ### _References_
 Teal K, Richardson A, Wong-Coppin V. Bathymetry Project (Second Edition). 2002. California Department of Fish and Game, Monterey, California.https://www.wildlife.ca.gov/Conservation/Marine/GIS/Downloads. 
 
 ### CalCOFI sea surface temperature data
 ### _Description_
-CalCOFI_temp.csv contains surface temperature data collected at CalCOFI stations.
+CalCOFI-temp.csv contains surface temperature data collected at CalCOFI stations.
 
 ### _References_
 NOAA SWFSC. CalCOFI NOAAHydros. 2017. ERDDAP. https://coastwatch.pfeg.noaa.gov/erddap/tabledap/erdNOAAhydros.graph 
 
 ### Bio-ORACLE projected sea surface temperature data
 ### _Description_
-Bio-ORACLE_ProjectedTemp file contains ASCIIs representing future sea surface temperature projections for 2050 and 2100 under each RCP scenario (RCP 2.6, RCP 4.5, RCP 6.0, and RCP 8.5)
+Bio-ORACLE-projtemp file contains ASCIIs representing future sea surface temperature projections for 2050 and 2100 under each RCP scenario (RCP 2.6, RCP 4.5, RCP 6.0, and RCP 8.5)
 
 ### _References_
 Bio-ORACLE (2017).Bio-ORACLE data. Bio-ORACLE. https://www.bio-oracle.org/downloads-to-email.php
@@ -51,16 +51,16 @@ CSUMB SFML (2008). SFML Data. CSUMB SFML. https://seafloor.otterlabs.org/SFMLweb
 
 ### SBC LTER kelp canopy area and biomass data
 ### _Description_
-SBCLTER_kelp file contains netCDF files of kelp biomass used to derive kelp persistence and associated metadata. 
+SBCLTER-kelp file contains netCDFs of kelp biomass used to derive kelp persistence and associated metadata. 
 
 ### _References_
 Bell, T, K. Cavanaugh, D. Siegel (2020). SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing) ver 13. Environmental Data Initiative. https://doi.org/10.6073/pasta/5d3fb6fd293bd403a0714d870a4dd7d8.
 
 ### REEF white abalone competitors and predators abundance data
 ### _Description_
-represents conains data on competitor and predator abundance. The provided public data is somewhat aggregated. A data request through REEF.org is required for more detailed data. 
+REEF-comppred file contains competitor and predator abundance score data used to derive indies of competitors abundance and predator diversity.
 
 ### _References_
-REEF (2017). REEF Volunteer Survey Project Fish data collected in REEF Zone 42. REEF. https://www.reef.org/db/reports/geo?end_date=2021-01-04&format_type=chart&group_type=species&language=common&region_code=PAC&start_date=1993-01-01&zone_map=1&zone_group_id=42
+REEF (2017). Reef Environmental Education Foundation Volunteer Fish Survey Project Database. World Wide Web electronic publication. https://www.reef.org/db/reports/geo?end_date=2021-01-04&format_type=chart&group_type=species&language=common&region_code=PAC&start_date=1993-01-01&zone_map=1&zone_group_id=42
 
 
