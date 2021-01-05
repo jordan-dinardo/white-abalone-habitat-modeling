@@ -45,7 +45,7 @@ Assis, J., Tyberghein, L., Bosh, S., Verbruggen, H., Serrão, E. A., & De Clerck
 
 ### CSUMB SFML bathymetry data
 ### _Description_
-XXXX contains shapefiles representing seafloor elevation (m), slope (degrees), and vector ruggedness measure for 
+XXXX contains shapefiles representing seafloor elevation (m), slope (degrees), and vector ruggedness measure.
 
 ### _References_
 CSUMB SFML (2008). SFML Data. CSUMB SFML. https://seafloor.otterlabs.org/SFMLwebDATA.htm
