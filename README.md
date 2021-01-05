@@ -17,10 +17,10 @@ White abalone (Haliotis sorenseni) was once commonly found in coastal waters of 
 
 ### CDFW bathymetry data
 ### _Description_
-CDFW-bathy file contains a shapefile representing ocean's depth (m) relative to sea level at a spatial resolution of 200 x 200 m. 
+CDFW-bathy file contains a shapefile representing seafloor elevation (m). 
 
 ### _References_
-Teal K, Richardson A, Wong-Coppin V. Bathymetry Project (Second Edition). 2002. California Department of Fish and Game, Monterey, California.https://www.wildlife.ca.gov/Conservation/Marine/GIS/Downloads. 
+Shuman, C. (2009). Marine Region GIS Downloads: Bathymetry. California Department of Fish and Game: Marine Region.https://www.wildlife.ca.gov/Conservation/Marine/GIS/Downloads. 
 
 ### CalCOFI sea surface temperature data
 ### _Description_
@@ -45,6 +45,7 @@ Assis, J., Tyberghein, L., Bosh, S., Verbruggen, H., Serrão, E. A., & De Clerck
 
 ### CSUMB SFML bathymetry data
 ### _Description_
+XXXXXXXXXXXXXXX
 
 ### _References_
 CSUMB SFML (2008). SFML Data. CSUMB SFML. https://seafloor.otterlabs.org/SFMLwebDATA.htm
@@ -54,7 +55,7 @@ CSUMB SFML (2008). SFML Data. CSUMB SFML. https://seafloor.otterlabs.org/SFMLweb
 SBCLTER-kelp file contains netCDFs of kelp biomass used to derive kelp persistence and associated metadata. 
 
 ### _References_
-Bell, T, K. Cavanaugh, D. Siegel (2020). SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing) ver 13. Environmental Data Initiative. https://doi.org/10.6073/pasta/5d3fb6fd293bd403a0714d870a4dd7d8.
+Bell, T, Cavanaugh, K., Siegel, D. (2020). SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing) ver 13. Environmental Data Initiative. https://doi.org/10.6073/pasta/5d3fb6fd293bd403a0714d870a4dd7d8.
 
 ### REEF white abalone competitors and predators abundance data
 ### _Description_
