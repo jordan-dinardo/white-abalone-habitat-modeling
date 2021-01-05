@@ -27,14 +27,14 @@ Shuman, C. (2009). Marine Region GIS Downloads: Bathymetry. California Departmen
 CalCOFI-temp.csv contains surface temperature data collected at CalCOFI stations.
 
 ### _References_
-NOAA SWFSC. CalCOFI NOAAHydros. 2017. ERDDAP. https://coastwatch.pfeg.noaa.gov/erddap/tabledap/erdNOAAhydros.graph 
+NOAA SWFSC (2017). CalCOFI NOAAHydros. ERDDAP. https://coastwatch.pfeg.noaa.gov/erddap/tabledap/erdNOAAhydros.graph 
 
 ### Bio-ORACLE projected sea surface temperature data
 ### _Description_
 Bio-ORACLE-projtemp file contains ASCIIs representing future sea surface temperature projections for 2050 and 2100 under each RCP scenario (RCP 2.6, RCP 4.5, RCP 6.0, and RCP 8.5)
 
 ### _References_
-Bio-ORACLE (2017).Bio-ORACLE data. Bio-ORACLE. https://www.bio-oracle.org/downloads-to-email.php
+Bio-ORACLE (2017). Bio-ORACLE data. Bio-ORACLE. https://www.bio-oracle.org/downloads-to-email.php
 
 Tyberghein L, Verbruggen H, Pauly K, Troupin C, Mineur F, De Clerck O (2012) Bio-ORACLE: A global environmental dataset for marine species distribution modelling. Global Ecology and Biogeography, 21, 272–281.
 
@@ -45,7 +45,7 @@ Assis, J., Tyberghein, L., Bosh, S., Verbruggen, H., Serrão, E. A., & De Clerck
 
 ### CSUMB SFML bathymetry data
 ### _Description_
-XXXXXXXXXXXXXXX
+XXXX contains shapefiles representing seafloor elevation (m), slope (degrees), and vector ruggedness measure for 
 
 ### _References_
 CSUMB SFML (2008). SFML Data. CSUMB SFML. https://seafloor.otterlabs.org/SFMLwebDATA.htm
