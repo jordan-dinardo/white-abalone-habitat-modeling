@@ -62,6 +62,6 @@ Bell, T, Cavanaugh, K., Siegel, D. (2020). SBC LTER: Time series of quarterly Ne
 REEF-comppred file contains competitor and predator abundance score data used to derive indies of competitors abundance and predator diversity.
 
 ### _References_
-REEF (2017). Reef Environmental Education Foundation Volunteer Fish Survey Project Database. World Wide Web electronic publication. https://www.reef.org/db/reports/geo?end_date=2021-01-04&format_type=chart&group_type=species&language=common&region_code=PAC&start_date=1993-01-01&zone_map=1&zone_group_id=42
+REEF (2017). Reef Environmental Education Foundation Volunteer Fish Survey Project Database. World Wide Web electronic publication. https://www.reef.org
 
 
