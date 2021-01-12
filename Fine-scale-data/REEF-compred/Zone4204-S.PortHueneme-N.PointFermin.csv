@@ -1,0 +1,250 @@
+"Region: PAC"
+"Geographic Zones: S Port Hueneme - N Point Fermin (LA County)"
+"Survey Types: Fish Only, Invertebrates Only, Fish &amp; Invertebrates"
+"Dates: 1/1/93 - 1/4/21"
+"Total Surveys: 319"
+"#Species Reported: 191"
+"Average Species Reported on a Survey by Expert Surveyors: 18.30"
+"Average Species Reported on a Survey by Novice Surveyors: 12.90"
+"Survey Type: FO = Fish Only; IO = Invertebrates Only; FI = Fish &amp; Invertebrates - <a href="/interpreting-reef-data" target="_blank">How to interpret REEF data?</a>"
+"Expand all"
+"Collapse all"
+"Click a column header to sort by that column. Hold shift and click to sort by multiple columns"
+,,Surveys,,,,,,"Bottom Time"
+,,Expert,,,Novice,,,
+Code,Name,FO,IO,FI,FO,IO,FI,(H:M)
+4,CALIFORNIA,37,0,61,172,4,45,284:55
+42,"SOUTHERN CALIFORNIA",37,0,61,172,4,45,284:55
+4204,"S Port Hueneme - N Point Fermin (LA County)",37,0,61,172,4,45,284:55
+420401,"Leo Carillo State Beach",0,0,0,5,0,1,3:09
+42040101,"Leo Carillo South",0,0,0,3,0,1,2:48
+42040102,"Leo Carillo North",0,0,0,2,0,0,0:21
+420402,"Point Dume",0,0,0,1,0,0,0:40
+42040201,"Point Dume Submarine Canyon",0,0,0,1,0,0,0:40
+420403,"Coral Beach",0,0,0,0,0,1,0:40
+42040301,"Broad Beach",0,0,0,0,0,1,0:40
+420404,"Malibu Beach",0,0,1,8,0,3,10:31
+42040404,"Malibu Cove",0,0,0,0,0,1,1:00
+42040405,"Escondido Beach (South)",0,0,0,3,0,0,2:15
+42040406,"Escondido Beach (Middle)",0,0,0,1,0,0,0:23
+42040408,"Escondido B4 (Paradise Cove Pier)/(Wooden House)",0,0,0,2,0,0,1:23
+42040411,"Las Tunas State Beach",0,0,0,1,0,0,1:29
+42040412,"120 Reef / Terranea Resort Beach",0,0,1,0,0,2,3:13
+420405,"Santa Monica Bay (Topanga Beach - Manhattan State Park)",0,0,0,0,0,1,0:40
+42040501,"Star of Scotland Wreck",0,0,0,0,0,1,0:40
+420406,"South Santa Monica Bay (Manhattan Beach - Pt. Vincente)",31,0,57,110,4,28,202:42
+42040601,"RAT Beach (Redondo and Torrance Beach)",8,0,7,20,0,0,20:32
+42040602,"Malaga Cove",3,0,16,68,1,6,82:47
+42040603,Haggerty's,0,0,8,5,0,2,23:03
+42040604,"Flat Rock",0,0,1,0,0,0,0:49
+42040605,"Rocky Point",0,0,0,3,0,0,1:51
+42040607,"Redondo Beach Submarine Canyon",19,0,21,14,3,16,68:09
+42040608,"Christmas Tree Cove",1,0,1,0,0,0,2:00
+42040609,"Palawan wreck",0,0,3,0,0,4,3:31
+420407,"Rancho Palos Verde (Pt. Vincente - White Point)",1,0,3,34,0,11,48:01
+42040701,"Abalone Cove",0,0,0,1,0,1,1:37
+42040702,"Long Point (old Marineland)",1,0,3,26,0,5,34:24
+42040703,"Royal Palms Pipeline",0,0,0,1,0,0,0:53
+42040704,"Inspiration Point",0,0,0,1,0,0,1:10
+42040705,"Pt. Vincente Fishing Access",0,0,0,2,0,0,2:56
+42040706,"Point Vincente",0,0,0,1,0,0,1:33
+42040707,"Palos Verde Peninsula",0,0,0,1,0,5,5:08
+420408,"West San Pedro (White Point - N. Point Fermin)",5,0,0,14,0,0,18:32
+42040801,"White Point",5,0,0,5,0,0,12:21
+TOTALS,,37,0,61,172,4,45,284:55
+"Species"
+"%SF = Sighting Frequency; DEN = Density Score - <a href="/interpreting-reef-data" target="_blank">How to interpret REEF data?</a>"
+"Click a column header to sort by that column. Hold shift and click to sort by multiple columns"
+,,,,Total,,Expert,,Novice,
+Rank,"Species ID",Species,Family,SF%,DEN,SF%,DEN,SF%,DEN
+1,0003,"Kelp Bass, (Paralabrax clathratus)","Sea Bass, (Serranidae)",66.35,2.46,57.14,2.52,70.51,2.44
+2,0006,"Garibaldi, (Hypsypops rubicundus)","Damselfish, (Pomacentridae)",60,2.46,44.9,2.27,66.82,2.51
+3,0129,"Rock Wrasse, (Halichoeres semicinctus)","Wrasse, (Labridae)",58.73,2.47,51.02,2.5,62.21,2.46
+4,0001,"Barred Sand Bass, (Paralabrax nebulifer)","Sea Bass, (Serranidae)",55.87,2.27,53.06,2.06,57.14,2.36
+5,0428,"Wavy Turban Snail, (Lithopoma undosum)","Mollusks, (Mollusca)",55.45,2.52,73.77,2.53,32.65,2.5
+6,0128,"Senorita, (Oxyjulis californica)","Wrasse, (Labridae)",53.65,2.88,45.92,2.87,57.14,2.89
+7,0114,"Black Perch, (Embiotoca jacksoni)","Surfperch, (Embiotocidae)",49.21,2.28,44.9,2.41,51.15,2.23
+8,0443,"Giant Kelp, (Macrocystis integrifolia / pyrifera)","Algae, (Algae)",49.09,3.3,54.1,3.33,42.86,3.24
+9,0426,"Kellet's Whelk, (Kelletia kelletii)","Mollusks, (Mollusca)",49.09,2.52,60.66,2.62,34.69,2.29
+10,0005,"Blacksmith, (Chromis punctipinnis)","Damselfish, (Pomacentridae)",47.62,2.99,33.67,2.85,53.92,3.03
+11,0127,"California Sheephead, (Semicossyphus pulcher)","Wrasse, (Labridae)",45.4,2.2,39.8,1.97,47.93,2.28
+12,0403,"Spiny Lobster, (Panulirus interruptus)","Arthropods, (Arthropoda)",41.82,2.04,49.18,2.13,32.65,1.88
+13,0036,"Opaleye, (Girella nigricans)","Sea Chub, (Kyphosidae)",40.32,2.54,38.78,2.82,41.01,2.43
+14,0107,"Blackeye Goby, (Rhinogobiops nicholsii)","Goby, (Gobiidae)",32.06,2.03,28.57,2,33.64,2.04
+15,0416,"Purple Urchin, (Strongylocentrotus purpuratus)","Echinoderms, (Echinodermata)",31.82,2.54,32.79,2.5,30.61,2.6
+16,0413,"Giant Spined Star, (Pisaster giganteus)","Echinoderms, (Echinodermata)",30.91,2.29,29.51,2.44,32.65,2.13
+17,0418,"Red Sea Hare, (Aplysia californica)","Mollusks, (Mollusca)",30.91,1.82,37.7,1.74,22.45,2
+18,0421,"Spanish Shawl, (Flabellina iodinea)","Mollusks, (Mollusca)",29.09,1.84,26.23,1.81,32.65,1.88
+19,0162,"Tube-dwelling Anemone, (Pachycerianthus fimbriatus)","Cnidarians, (Cnidaria)",28.18,2.23,26.23,1.94,30.61,2.53
+20,0039,"Sargo, (Anisotremus davidsoni)","Grunt, (Haemulidae)",26.03,2.06,14.29,1.86,31.34,2.1
+21,0117,"Pile Perch, (Rhacochilus vacca)","Surfperch, (Embiotocidae)",25.71,1.94,23.47,2.09,26.73,1.88
+22,0423,"Two-spot Octopus, (Octopus bimaculatus)","Mollusks, (Mollusca)",24.55,1.33,24.59,1.27,24.49,1.42
+23,0412,"Bat Star, (Asterina miniata)","Echinoderms, (Echinodermata)",23.64,2.08,21.31,1.77,26.53,2.38
+24,0408,"California Golden Gorgonian, (Muricea californica)","Cnidarians, (Cnidaria)",23.64,2.5,16.39,2.2,32.65,2.69
+25,0032,"Painted Greenling, (Oxylebius pictus)","Greenling, (Hexagrammidae)",23.17,2.01,28.57,1.71,20.74,2.2
+26,0422,"Red Octopus, (Octopus rubescens)","Mollusks, (Mollusca)",22.73,1.68,24.59,1.67,20.41,1.7
+27,0411,"Warty Sea Cucumber, (Parastichopus parvimensis)","Echinoderms, (Echinodermata)",22.73,2,19.67,2,26.53,2
+28,0010,"Giant Kelpfish, (Heterostichus rostratus)","Clinid, (Clinidae)",22.54,1.65,25.51,1.52,21.2,1.72
+29,0035,"Halfmoon, (Medialuna californiensis)","Sea Chub, (Kyphosidae)",22.22,1.97,22.45,2.14,22.12,1.9
+30,0425,"Giant Keyhole Limpet, (Megathura crenulata)","Mollusks, (Mollusca)",21.82,1.75,18.03,1.64,26.53,1.85
+31,0116,"Kelp Perch, (Brachyistius frenatus)","Surfperch, (Embiotocidae)",21.59,2.04,20.41,2.2,22.12,1.98
+32,0174,"Eccentric Sand Dollar, (Dendraster excentricus)","Echinoderms, (Echinodermata)",20.91,3.65,29.51,3.72,10.2,3.4
+33,0176,"Red Sea Urchin, (Mesocentrotus franciscanus)","Echinoderms, (Echinodermata)",20.91,2.74,19.67,2.67,22.45,2.82
+34,0161,"Strawberry Anemone, (Corynactis californica)","Cnidarians, (Cnidaria)",20.91,0.61,11.48,0.57,32.65,0.63
+35,0120,"Rubberlip Seaperch, (Rhacochilus toxotes)","Surfperch, (Embiotocidae)",20.32,1.89,21.43,2.1,19.82,1.79
+36,0021,"California Halibut, (Paralichthys californicus)","Lefteye Flounder, (Bothidae)",19.68,1.39,22.45,1.27,18.43,1.45
+37,0439,"Colonial Sand-tube Worm, (Phragmatopoma californica)","Annelids, (Annelida)",19.09,0.52,27.87,0.59,8.16,0.25
+38,0082,"Bat Ray, (Myliobatis californica)","Eagle Ray, (Myliobatidae)",19.05,1.67,24.49,1.88,16.59,1.53
+39,0440,"Feather Duster Worm (E. polymorpha), (Eudistylia polymorpha)","Annelids, (Annelida)",18.18,2.3,21.31,2.15,14.29,2.57
+40,0026,"Speckled Sanddab, (Citharichthys stigmaeus)","Lefteye Flounder, (Bothidae)",17.78,2.61,38.78,2.87,8.29,2.06
+41,0187,"Rock Scallop, (Crassadoma gigantea)","Mollusks, (Mollusca)",16.36,2,18.03,2,14.29,2
+42,0424,"Chestnut Cowry, (Cypraea spadicea)","Mollusks, (Mollusca)",15.45,1.88,9.84,1.67,22.45,2
+43,0401,"Masking/Sheep Crab, (Loxorthynchus crispatus (L. grandis))","Arthropods, (Arthropoda)",15.45,1.76,21.31,1.92,8.16,1.25
+44,0400,"Brown Rock Crab, (Cancer antennarius)","Arthropods, (Arthropoda)",14.55,1.75,19.67,1.67,8.16,2
+45,0169,"California Sea Cucumber, (Parastichopus californicus)","Echinoderms, (Echinodermata)",14.55,1.88,4.92,1.33,26.53,2
+46,0069,"Cabezon, (Scorpaenichthys marmoratus)","Sculpin, (Cottidae)",14.29,1.4,18.37,1.56,12.44,1.3
+47,0103,"Silversides spp., (Atherinidae spp.)","Silverside, (Atherinidae)",14.29,3.02,12.24,2.83,15.21,3.09
+48,0118,"Rainbow Seaperch, (Hypsurus caryi)","Surfperch, (Embiotocidae)",13.65,2.14,21.43,2.24,10.14,2.05
+49,0407,"Brown Gorgonian, (Muricea fruticosa)","Cnidarians, (Cnidaria)",12.73,2,14.75,1.78,10.2,2.4
+50,0438,"Christmas Tree Worm, (Spirobranchus spinosus)","Annelids, (Annelida)",12.73,2.57,19.67,2.58,4.08,2.5
+51,0155,"Northern Kelp Crab, (Pugettia producta)","Arthropods, (Arthropoda)",12.73,1.5,16.39,1.4,8.16,1.75
+52,0086,"Horn Shark, (Heterodontus francisci)","Bullhead Shark, (Heterodontidae)",12.7,1.55,26.53,1.62,6.45,1.43
+53,0043,"Zebraperch, (Hermosilla azurea)","Sea Chub, (Kyphosidae)",12.06,2,9.18,1.78,13.36,2.07
+54,0348,"California Corbina, (Menticirrhus undulatus)","Drum, (Sciaenidae)",11.75,2.19,13.27,1.85,11.06,2.38
+55,0105,"Pacific Sardine, (Sardinops sagax)","Herring, (Clupeidae)",11.75,3.76,13.27,3.77,11.06,3.75
+56,0062,"Treefish, (Sebastes serriceps)","Scorpionfish, (Scorpaenidae)",11.43,1.58,9.18,1.44,12.44,1.63
+57,0070,"California Scorpionfish, (Scorpaena guttata)","Scorpionfish, (Scorpaenidae)",11.11,1.29,12.24,1.25,10.6,1.3
+58,0406,"Southern Staghorn Bryozoan, (Diaperoforma californica)","Bryozoans, (Bryozoa)",10.91,2.42,14.75,2.44,6.12,2.33
+59,0227,"California Lizardfish, (Synodus lucioceps)","Lizardfish, (Synodontidae)",10.48,2,27.55,2.07,2.76,1.67
+60,0016,"Sarcastic Fringehead, (Neoclinus blanchardi)","Blenny (pike, tube and flag), (Chaenopsidae)",10.48,1.58,23.47,1.57,4.61,1.6
+61,0130,"Unidentified Pipefish, (Syngnathidae spp.)","Pipefish & Seahorse, (Syngnathidae)",10.16,1.72,25.51,1.72,3.23,1.71
+62,0022,"C-O Sole, (Pleuronichthys coenosus)","Righteye Flounder, (Pleuronectidae)",9.84,1.55,23.47,1.65,3.69,1.25
+63,0056,"Olive Rockfish, (Sebastes serranoides)","Scorpionfish, (Scorpaenidae)",9.84,1.84,16.33,1.75,6.91,1.93
+64,0125,"White Seaperch, (Phanerodon furcatus)","Surfperch, (Embiotocidae)",9.52,2.37,11.22,2.55,8.76,2.26
+65,0173,"Sunflower Star, (Pycnopodia helianthoides)","Echinoderms, (Echinodermata)",9.09,1.9,3.28,2,16.33,1.88
+66,0055,"Kelp Rockfish, (Sebastes atrovirens)","Scorpionfish, (Scorpaenidae)",8.89,1.75,7.14,1.57,9.68,1.81
+67,0034,"Black Croaker, (Cheilotrema saturnum)","Drum, (Sciaenidae)",8.57,2.44,5.1,2.4,10.14,2.45
+68,0108,"Bluebanded Goby, (Lythrypnus dalli)","Goby, (Gobiidae)",8.57,2.15,5.1,3.2,10.14,1.91
+69,0087,"Leopard Shark, (Triakis semifasciata)","Requiem Shark, (Carcharhinidae)",8.57,1.3,5.1,1.2,10.14,1.32
+70,0122,"Shiner Perch, (Cymatogaster aggregata)","Surfperch, (Embiotocidae)",8.57,2.7,14.29,2.71,5.99,2.69
+71,0092,"Shovelnose Guitarfish, (Rhinobatos productus)","Guitarfish, (Rhinobatidae)",8.57,1.74,5.1,1.2,10.14,1.86
+72,0124,"Walleye Surfperch, (Hyperprosopon argenteum)","Surfperch, (Embiotocidae)",8.57,3.3,14.29,3.43,5.99,3.15
+73,0415,"Crowned Urchin, (Centrostphanus coronatus)","Echinoderms, (Echinodermata)",8.18,2.11,8.2,1.6,8.16,2.75
+74,0434,"Orange Puffball Sponge, (Tethya aurantia)","Poriferans, (Porifera)",8.18,2.11,8.2,2,8.16,2.25
+75,0410,"Red Gorgonian, (Leptogorgia chilensis)","Cnidarians, (Cnidaria)",8.18,2.22,8.2,2,8.16,2.5
+76,0419,"San Diego Dorid / Leopard Dorid, (Diaulula sandiegensis / odonoghuei)","Mollusks, (Mollusca)",8.18,1.44,6.56,1,10.2,1.8
+77,0437,"Stalked Tunicate, (Styela montereyensis)","Urochordates, (Urochordata)",8.18,2,6.56,2.25,10.2,1.8
+78,0038,"Salema, (Xenistius californiensis)","Grunt, (Haemulidae)",7.94,3.44,7.14,3.71,8.29,3.33
+79,0100,"Pacific Barracuda, (Sphyraena argentea)","Barracuda, (Sphyraenidae)",7.3,2.83,8.16,2.5,6.91,3
+80,0420,"Sea Lemon, (Peltodoris nobilis)","Mollusks, (Mollusca)",7.27,2,3.28,2,12.24,2
+81,0427,"Red Turban Snail, (Lithopoma gibberosum)","Mollusks, (Mollusca)",6.36,2.29,1.64,2,12.24,2.33
+82,0414,"Spiny Brittlestar, (Ophiothrix spiculata)","Echinoderms, (Echinodermata)",6.36,2.14,3.28,2.5,10.2,2
+83,0096,"Jack Mackerel, (Trachurus symmetricus)","Jack, (Carangidae)",6.03,3.21,8.16,3.38,5.07,3.09
+84,0097,"Jacksmelt, (Atherinops californiensis)","Silverside, (Atherinidae)",6.03,3,3.06,2.67,7.37,3.06
+85,0090,"Round Stingray, (Urolophus halleri)","Round Stingray, (Urolophidae)",6.03,1.26,10.2,1.3,4.15,1.22
+86,0041,"White Seabass, (Atractoscion nobilis)","Drum, (Sciaenidae)",6.03,2.26,2.04,1.5,7.83,2.35
+87,0158,"Lacy Bryozoan, (Phidolopora pacifica)","Bryozoans, (Bryozoa)",5.45,2.67,6.56,2.25,4.08,3.5
+88,0436,"Light-bulb Tunicate, (Clavelina huntsmani)","Urochordates, (Urochordata)",5.45,2,4.92,2,6.12,2
+89,0113,"Barred Surfperch, (Amphistichus argenteus)","Surfperch, (Embiotocidae)",5.4,2,0,0,7.83,2
+90,0011,"Island Kelpfish, (Alloclinus holderi)","Labrisomids, (Labrisomidae)",5.4,1.59,0,0,7.83,1.59
+91,0004,"Spotted Sand Bass, (Paralabrax maculatofasciatus)","Sea Bass, (Serranidae)",5.4,2.06,1.02,2,7.37,2.06
+92,0042,"Yellowfin Croaker, (Umbrina roncador)","Drum, (Sciaenidae)",5.4,2.76,4.08,2.75,5.99,2.77
+93,0337,"Topsmelt, (Atherinops affinis)","Silverside, (Atherinidae)",5.08,3.56,14.29,3.57,0.92,3.5
+94,0115,"Dwarf Perch, (Micrometrus miminus)","Surfperch, (Embiotocidae)",4.76,2,14.29,2,0.46,2
+95,0030,"Lingcod, (Ophiodon elongatus)","Greenling, (Hexagrammidae)",4.76,1.33,5.1,1.6,4.61,1.2
+96,0296,"Rockpool Blenny, (Hypsoblennius gilberti)","Combtooth Blenny, (Blenniidae)",4.76,1.6,5.1,1.6,4.61,1.6
+97,0433,"Cobalt Sponge, (Hymenamphiastra cyanocrypta)","Poriferans, (Porifera)",4.55,0.6,4.92,0.67,4.08,0.5
+98,0171,"Leather Star, (Dermasterias imbricata)","Echinoderms, (Echinodermata)",4.55,2,0,0,10.2,2
+99,0446,"Southern Sea Palm, (Eisenia arborea)","Algae, (Algae)",4.55,2.8,4.92,3,4.08,2.5
+100,0053,"Gopher Rockfish, (Sebastes carnatus)","Scorpionfish, (Scorpaenidae)",4.44,1.64,8.16,1.63,2.76,1.67
+101,0369,"Unidentified Flatfish, (Bothidae sp.)","Lefteye Flounder, (Bothidae)",4.44,1.5,8.16,1.5,2.76,1.5
+102,0050,"Calico Rockfish, (Sebastes dalli)","Scorpionfish, (Scorpaenidae)",4.13,1.92,5.1,2,3.69,1.88
+103,0104,"Chub Mackerel, (Scomber japonicus)","Mackerel, (Scombridae)",4.13,3.15,6.12,3,3.23,3.29
+104,0037,"Queenfish, (Seriphus politus)","Drum, (Sciaenidae)",4.13,3.85,3.06,4,4.61,3.8
+105,0373,"Southern Spearnose Poacher, (Agonopsis sterletus)","Poacher, (Agonidae)",4.13,1.62,12.24,1.58,0.46,2
+106,0094,"Thornback, (Platyrhinoidis triseriata)","Guitarfish, (Rhinobatidae)",4.13,1.46,12.24,1.5,0.46,1
+107,0081,"Unidentified Sculpin, (Cottidae spp.)","Sculpin, (Cottidae)",4.13,1.77,3.06,1.67,4.61,1.8
+108,0126,"Unidentified Surfperch, (Embiotocidae spp.)","Surfperch, (Embiotocidae)",4.13,2.23,1.02,1,5.53,2.33
+109,0052,"Copper Rockfish, (Sebastes caurinus)","Scorpionfish, (Scorpaenidae)",3.81,1.75,5.1,1.8,3.23,1.71
+110,0029,"Kelp Greenling, (Hexagrammos decagrammus)","Greenling, (Hexagrammidae)",3.81,1.58,0,0,5.53,1.58
+111,0404,"Fluted Bryozoan, (Primavelans insculpta)","Bryozoans, (Bryozoa)",3.64,2.5,1.64,2,6.12,2.67
+112,0417,"White Urchin, (Lytechinus anamesus)","Echinoderms, (Echinodermata)",3.64,1.5,3.28,1,4.08,2
+113,0098,"Northern Anchovy, (Engraulis mordax)","Anchovy, (Engraulidae)",3.49,3.64,7.14,3.43,1.84,4
+114,0063,"Vermilion Rockfish, (Sebastes miniatus)","Scorpionfish, (Scorpaenidae)",3.49,2.18,7.14,2.29,1.84,2
+115,0048,"Brown Rockfish, (Sebastes auriculatus)","Scorpionfish, (Scorpaenidae)",3.17,1.7,5.1,1.6,2.3,1.8
+116,0345,"Diamond Turbot, (Hypsopsetta guttulata)","Righteye Flounder, (Pleuronectidae)",3.17,1.2,6.12,1.33,1.84,1
+117,0023,"Fantail Sole, (Xystreurys liolepis)","Lefteye Flounder, (Bothidae)",3.17,1.3,9.18,1.22,0.46,2
+118,0002,"Giant Sea Bass, (Stereolepis gigas)","Wreckfish, (Polyprionidae)",3.17,1.4,2.04,1,3.69,1.5
+119,0353,"Juvenile (YOY) Rockfish - Unidentified, (Sebastes sp.)","Scorpionfish, (Scorpaenidae)",3.17,2.3,5.1,2.8,2.3,1.8
+120,0066,"Unidentified Rockfish, (Sebastes sp.)","Scorpionfish, (Scorpaenidae)",3.17,1.8,0,0,4.61,1.8
+121,0045,"Black Rockfish, (Sebastes melanops)","Scorpionfish, (Scorpaenidae)",2.86,2,2.04,2,3.23,2
+122,0024,"Pacific Sanddab, (Citharichthys sordidus)","Lefteye Flounder, (Bothidae)",2.86,1.56,5.1,1.6,1.84,1.5
+123,0027,"Spotted Turbot, (Pleuronichthys ritteri)","Righteye Flounder, (Pleuronectidae)",2.86,1.22,7.14,1,0.92,2
+124,0019,"Unidentified Kelpfish, (Clinidae spp.)","Clinid, (Clinidae)",2.86,1.56,0,0,4.15,1.56
+125,0183,"Lewis' Moonsnail, (Neverita lewisii)","Mollusks, (Mollusca)",2.73,1,3.28,1,2.04,1
+126,0445,"Oarweed, (Laminaria farlowii)","Algae, (Algae)",2.73,2.67,1.64,2,4.08,3
+127,0178,"Opalescent Nudibranch, (Hermissenda crassicornis / opalescens)","Mollusks, (Mollusca)",2.73,2,3.28,2.5,2.04,1
+128,0046,"Black-and-Yellow Rockfish, (Sebastes chrysomelas)","Scorpionfish, (Scorpaenidae)",2.54,1.25,3.06,1.33,2.3,1.2
+129,0044,"Blue Rockfish - generic ID, (Sebastes mystinus/diaconus)","Scorpionfish, (Scorpaenidae)",2.54,1.75,4.08,1.5,1.84,2
+130,0054,"Grass Rockfish, (Sebastes rastrelliger)","Scorpionfish, (Scorpaenidae)",2.54,1.25,6.12,1.33,0.92,1
+131,0085,"Gray Smoothhound, (Mustelus californicus)","Requiem Shark, (Carcharhinidae)",2.54,1.75,1.02,1,3.23,1.86
+132,0099,"Ocean Whitefish, (Caulolatilus princeps)","Tilefish, (Malacanthidae)",2.54,1.38,5.1,1,1.38,2
+133,0328,"Spotted Kelpfish, (Gibbonsia elegans)","Clinid, (Clinidae)",2.54,1.63,3.06,1.67,2.3,1.6
+134,0251,"Hornyhead Turbot, (Pleuronichthys verticalis)","Righteye Flounder, (Pleuronectidae)",2.22,1.14,4.08,1,1.38,1.33
+135,0298,"Roughback Sculpin, (Chitonotus pugetensis)","Sculpin, (Cottidae)",2.22,1.43,6.12,1.5,0.46,1
+136,0079,"Snubnose Sculpin, (Orthonopias triacis)","Sculpin, (Cottidae)",2.22,1.57,0,0,3.23,1.57
+137,0112,"Zebra Goby, (Lythrypnus zebra)","Goby, (Gobiidae)",2.22,2,1.02,1,2.76,2.17
+138,0210,"Bay Goby, (Lepidogobius lepidus)","Goby, (Gobiidae)",1.9,2,3.06,1.67,1.38,2.33
+139,0382,"Halfbanded Rockfish, (Sebastes semicinctus)","Scorpionfish, (Scorpaenidae)",1.9,2.5,6.12,2.5,0,0
+140,0014,"Onespot Fringehead, (Neoclinus uninotatus)","Blenny (pike, tube and flag), (Chaenopsidae)",1.9,1.17,3.06,1.33,1.38,1
+141,0166,"Orange Cup Coral, (Balanophyllia elegans)","Cnidarians, (Cnidaria)",1.82,1.5,1.64,1,2.04,2
+142,0432,"Unidentified Abalone, (Haliotis sp.)","Mollusks, (Mollusca)",1.82,1,3.28,1,0,0
+143,0088,"Angel Shark, (Squatina californica)","Angel Shark, (Squatinidae)",1.59,1,3.06,1,0.92,1
+144,0379,"Bluebanded Ronquil (R. hypoplecta), (Rathbunella hypoplecta)","Ronquil, (Bathymasteridae)",1.59,1.2,5.1,1.2,0,0
+145,0383,"Chillipepper, (Sebastes goodei)","Scorpionfish, (Scorpaenidae)",1.27,2.75,4.08,2.75,0,0
+146,0232,"Crevice Kelpfish, (Gibbonsia montereyensis)","Clinid, (Clinidae)",1.27,1.75,2.04,1.5,0.92,2
+147,0134,"Plainfin Midshipman, (Porichthys notatus)","Toadfish, (Batrachoididae)",1.27,1.75,3.06,1.33,0.46,3
+148,0119,"Reef Perch, (Micrometrus aurora)","Surfperch, (Embiotocidae)",1.27,2.25,0,0,1.84,2.25
+149,0025,"Southern Rock Sole, (Lepidopsetta bilineata)","Righteye Flounder, (Pleuronectidae)",1.27,1.5,2.04,2,0.92,1
+150,0327,"Spotfin Sculpin, (Icelinus tenuis)","Sculpin, (Cottidae)",1.27,1.25,4.08,1.25,0,0
+151,0123,"Striped Seaperch, (Embiotoca lateralis)","Surfperch, (Embiotocidae)",1.27,1.75,0,0,1.84,1.75
+152,0250,"Honeycomb Rockfish, (Sebastes umbrosus)","Scorpionfish, (Scorpaenidae)",0.95,1.33,2.04,1,0.46,2
+153,0059,"Rosy Rockfish, (Sebastes rosaceus)","Scorpionfish, (Scorpaenidae)",0.95,2,3.06,2,0,0
+154,0304,"Scalyhead Sculpin, (Artedius harringtoni)","Sculpin, (Cottidae)",0.95,1,0,0,1.38,1
+155,0091,"Spiny Dogfish, (Squalus suckleyi)","Dogfish Shark, (Squalidae)",0.95,1,0,0,1.38,1
+156,0342,"Woolly Sculpin, (Clinocottus analis)","Sculpin, (Cottidae)",0.95,1.67,3.06,1.67,0,0
+157,0376,"Yellowchin Sculpin, (Icelinus quadriseriatus)","Sculpin, (Cottidae)",0.95,2,3.06,2,0,0
+158,0429,"Green Abalone, (Haliotis fulgens)","Mollusks, (Mollusca)",0.91,2,1.64,2,0,0
+159,0431,"Red Abalone, (Haliotis rufescens)","Mollusks, (Mollusca)",0.91,2,0,0,2.04,2
+160,0020,"Bigmouth Sole, (Hippoglossina stomata)","Lefteye Flounder, (Bothidae)",0.63,1,1.02,1,0.46,1
+161,0047,"Bocaccio, (Sebastes paucispinis)","Scorpionfish, (Scorpaenidae)",0.63,3.5,2.04,3.5,0,0
+162,0374,"California Tonguefish, (Symphurus atricaudus)","Tonguefishes, (Cynoglossidae)",0.63,1,1.02,1,0.46,1
+163,0240,"Finescale Triggerfish, (Balistes polylepis)","Leatherjacket, (Balistidae)",0.63,1,1.02,1,0.46,1
+164,0258,"Longfin Sculpin, (Jordania zonope)","Sculpin, (Cottidae)",0.63,1,0,0,0.92,1
+165,0074,"Northern Spearnose Poacher, (Agonopsis vulsa)","Poacher, (Agonidae)",0.63,1,1.02,1,0.46,1
+166,0089,"Pacific Electric Ray, (Torpedo californica)","Electric Ray, (Torpedinidae)",0.63,1,0,0,0.92,1
+167,0075,"Pacific Staghorn Sculpin, (Leptocottus armatus)","Sculpin, (Cottidae)",0.63,1,0,0,0.92,1
+168,0040,"Spotfin Croaker, (Roncador stearnsii)","Drum, (Sciaenidae)",0.63,2,0,0,0.92,2
+169,0017,"Spotted Cusk-eel, (Chilara taylori)","Cusk-Eel, (Ophidiidae)",0.63,1.5,1.02,2,0.46,1
+170,0349,"Striped Bass, (Morone saxatilis)","Temperate Bass, (Moronidae)",0.63,1,0,0,0.92,1
+171,0018,"Yellowfin Fringehead, (Neoclinus stephensae)","Blenny (pike, tube and flag), (Chaenopsidae)",0.63,1.5,1.02,1,0.46,2
+172,0106,"Yellowtail, (Seriola lalandi)","Jack, (Carangidae)",0.63,1.5,0,0,0.92,1.5
+173,0209,"Bay Blenny, (Hypsoblennius gentilis)","Combtooth Blenny, (Blenniidae)",0.32,1,0,0,0.46,1
+174,0377,"Bull Sculpin, (Enophrys taurina)","Sculpin, (Cottidae)",0.32,1,1.02,1,0,0
+175,0344,"California Butterfly Ray, (Gymnura marmorata)","Butterfly Ray, (Gymnuridae)",0.32,1,1.02,1,0,0
+176,0007,"California Moray, (Gymnothorax mordax)","Moray, (Muraenidae)",0.32,1,1.02,1,0,0
+177,0071,"Coralline Sculpin, (Artedius corallinus)","Sculpin, (Cottidae)",0.32,1,0,0,0.46,1
+178,0233,"Curlfin Sole, (Pleuronichthys decurrens)","Righteye Flounder, (Pleuronectidae)",0.32,2,0,0,0.46,2
+179,0235,"Diamond Stingray, (Dasyatis dipterura)","Stingray, (Dasyatidae)",0.32,1,0,0,0.46,1
+180,0244,"Green Jack, (Caranx caballus)","Jack, (Carangidae)",0.32,1,0,0,0.46,1
+181,0246,"Grunt Sculpin, (Rhamphocottus richardsonii)","Sculpin, (Cottidae)",0.32,1,0,0,0.46,1
+182,0253,"Kelp Pipefish, (Syngnathus californiensis)","Pipefish & Seahorse, (Syngnathidae)",0.32,3,0,0,0.46,3
+183,0260,"Longspine Combfish, (Zaniolepis latipinnis)","Greenling, (Hexagrammidae)",0.32,1,1.02,1,0,0
+184,0132,"Ocean Sunfish, (Mola mola)","Mola, (Molidae)",0.32,1,0,0,0.46,1
+185,0275,"Pacific Seahorse, (Hippocampus ingens)","Pipefish & Seahorse, (Syngnathidae)",0.32,2,0,0,0.46,2
+186,0015,"Penpoint Gunnel, (Apodichthys flavidus)","Gunnel, (Pholidae)",0.32,2,0,0,0.46,2
+187,0285,"Pygmy Poacher, (Odontopyxis trispinosa)","Poacher, (Agonidae)",0.32,1,1.02,1,0,0
+188,0333,"Striped Kelpfish, (Gibbonsia metzi)","Clinid, (Clinidae)",0.32,1,1.02,1,0,0
+189,0360,"Striped Mullet, (Mugil cephalus)","Mullet, (Mugilidae)",0.32,2,0,0,0.46,2
+190,0093,"Swell Shark, (Cephaloscyllium ventriosum)","Cat Shark, (Scyliorhinidae)",0.32,1,0,0,0.46,1
+191,0138,"Tubesnout, (Aulorhynchus flavidus)","Tubesnout, (Aulorhynchidae)",0.32,2,1.02,2,0,0
