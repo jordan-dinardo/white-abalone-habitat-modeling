@@ -17,7 +17,7 @@ White abalone (Haliotis sorenseni) was once commonly found in coastal waters of 
 
 ### CDFW bathymetry data
 ### _Description_
-CDFW bathymetry files contains a shapefile representing seafloor elevation (m). The data files are too large of a file to upload to this repository. To access these data see the reference below. 
+CDFW bathymetry files contains a shapefile representing seafloor elevation (m). The data files are too large to upload to this repository. To access these data see the reference below. 
 
 ### _References_
 Shuman, C. (2009). Marine Region GIS Downloads: Bathymetry. California Department of Fish and Game: Marine Region.https://www.wildlife.ca.gov/Conservation/Marine/GIS/Downloads. 
@@ -45,14 +45,14 @@ Assis, J., Tyberghein, L., Bosh, S., Verbruggen, H., Serrão, E. A., & De Clerck
 
 ### CSUMB SFML bathymetry data
 ### _Description_
-CSUMBSFML bathymetry data contains rasters representing seafloor elevation (m), slope (degrees), and vector ruggedness measure.The data files are too large of a file to upload to this repository. To access these data see the reference below. 
+CSUMB SFML bathymetry data contains rasters representing seafloor elevation (m), slope (degrees), and vector ruggedness measure.The data files are too large to upload to this repository. To access these data see the reference below. 
 
 ### _References_
 CSUMB SFML (2008). SFML Data. CSUMB SFML. https://seafloor.otterlabs.org/SFMLwebDATA.htm
 
 ### SBC LTER kelp canopy area and biomass data
 ### _Description_
-SBCLTER kelp data contains netCDFs of kelp biomass used to derive kelp persistence and associated metadata. The data files are too large of a file to upload to this repository. To access these data see the reference below. 
+SBCLTER kelp data contains netCDFs of kelp biomass used to derive kelp persistence and associated metadata. The data files are too large to upload to this repository. To access these data see the reference below. 
 
 ### _References_
 Bell, T, Cavanaugh, K., Siegel, D. (2020). SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing) ver 13. Environmental Data Initiative. https://doi.org/10.6073/pasta/5d3fb6fd293bd403a0714d870a4dd7d8.
