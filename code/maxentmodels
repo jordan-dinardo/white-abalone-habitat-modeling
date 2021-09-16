@@ -1,4 +1,4 @@
-# Run Maxent model on each study area to predict associated suitable habitat
+# Run Maxent model on fishery independent data for each study area to predict associated suitable habitat
 # Study areas include: 
   # g1 San Clemente Island
   # g2 Tanner and Cortes Banks
