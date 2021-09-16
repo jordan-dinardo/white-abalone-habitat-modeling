@@ -1,0 +1,116 @@
+# Run random forest on fishery dependent data to predict suitable habotat in the Southern California Bight
+
+# Load libraries
+library(randomForest);library(raster);library(sp);library(dplyr);library(rgdal)
+
+# Load environmental variables
+layers_scb<-list.files("/EnvironmentalVariables/SCB",pattern = ".asc",full.names = T)
+layers_scb<-stack(layers_scb) #stack environmental layers
+
+# Load fishery-dependent species data (ensure species data is in same projection as env layers)
+catch<-read.table("/PresenceData/fdep_speciesdata.txt",sep=",",header = T)
+catch<-catch[,c(2:4)]
+colnames(catch)<-c("Longitude","Latitude","Catch")
+catch.sp<-SpatialPointsDataFrame(data=catch,proj4string = CRS("+proj=utm +zone=11 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0 "),coords=catch[,c("Longitude","Latitude")])
+
+# Extract env data for each catch location 
+data<-raster::extract(layers_scb,catch[,c(1:2)])
+data<-cbind(data,catch)
+
+# Log-transform  catch data (to alleviate xero-inflation and skewness)
+data$catch<-as.numeric(data$catch)
+data$catch_1<-data$catch+1
+data$catch_log<-log(data$catch_1)
+data<-na.omit(data) #omit nas (rf will not work with nas)
+
+# Split data into test and train datasets
+sample.ind<-sample(2,nrow(data),
+                   replace=T,
+                   prob=c(0.7,0.3))
+data.train<-data[sample.ind==1,]
+data.test<-data[sample.ind==2,]
+
+#fit random forestt model with 100000 trees
+rf_mod<-randomForest(x=data.train[,c(1:4)],y=data.train$catch_log,xtest=data.test[,c(1:4)],ytest=data.test$catch_log,ntree=100000,importance=T,keep.forest=T)
+plot(rf1) #plot rf model 
+rf_mod #check summary of rf model
+
+# Predict habitat suitability using random forest model 
+pred<-predict(rf_mod,data[,c(1:4)],predict.all=T,estimate.variance=T)
+
+
+# Develop dataframe with rf model predictions
+rf_pred<-data.frame(
+  mean=pred$aggregate,
+  long=data$Longitude,
+  lat=data$Latitude
+)
+
+individual<-as.data.frame(pred$individual) # grab individual predictions
+
+#Calculate 95% quantile range of positive predictions  
+q.025<-function(x){
+  quantile(x,probs=0.025,na.rm=T)
+}
+
+q.975<-function(x){
+  quantile(x,probs=0.975,na.rm=T)
+}
+
+#make dataframes into Spatial Points Dataframe
+#convert just lat/long to WGS84 and merge with model prediction dataframes
+
+rf_pred_sp<-SpatialPoints(rf_pred[,c("long","lat")],proj4string = CRS("+proj=utm +zone=11 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0 "))
+rf_pred_sp<-spTransform(rf_pred_sp,CRS("+proj=longlat +ellps=WGS84 +datum=WGS84"))
+
+
+rf_pred_sp<-as.data.frame(rf_pred_sp)
+colnames(rf_pred_sp)<-c("long","lat")
+
+
+rf_pred<-cbind(rf_pred[,1],rf_pred_sp)
+colnames(rf_pred)<-c("pred_catch","Longitude","Latitude")
+
+# Calculate relative abundance (habitat suitability)
+rf_pred$suitability<-(rf_pred$pred_catch/max(rf_pred$pred_catch))
+
+# Convert suitability metric to spatial points 
+rf_pred<-SpatialPointsDataFrame(data=prf_pred,proj4string = CRS("+proj=longlat +ellps=WGS84 +datum=WGS84"),coords=rf_pred[,c("Longitude","Latitude")])
+
+# Rasterize habitat suitability spatial points
+gridded(rf_pred)<-T
+scb_pred_mean<-raster(rf_pred,layer='suitability')
+
+# Calculate 95% quantile range of relative abundance (habitat suitability)
+
+individual_pred<-as.data.frame(apply(individual[,c(1:10000)],2,FUN=function(x){x/max(x)})) #convert values to relative habitat suitability metric
+
+q.025.individual_pred<-transform(individual_pred, q.025=apply(individual_pred,1, q.025))
+q.025.individual_pred<-q.025.individual_pred[,10001]
+q.025.individual_pred
+
+q.975.individual_pred<-transform(individual_pred, q.975=apply(individual_pred,1, q.975))
+q.975.individual_pred<-q.975.individual_pred[,10001]
+q.975.individual_pred
+
+range<-as.data.frame(cbind(q.025.individual_pred,q.975.individual_pred))
+colnames(range)<-c("q.025","q.975")
+range$range<-(range$q.975)-(range$q.025)
+
+# Prepare 95% quantile range for visualization
+range<-cbind(range$range,rf_pred_sp)
+colnames(range)<-c("range","Longitude","Latitude")
+
+# Convert 95% quantile range data to spatial points dataframe
+scb_pred_range<-SpatialPointsDataFrame(data=range,proj4string = CRS("+proj=longlat +ellps=WGS84 +datum=WGS84"),coords=range[,c("Longitude","Latitude")])
+
+# Rasterize 95% quantile range of habitat suitability
+gridded(scb_pred_range)<-T
+scb_pred_range<-raster(scb_pred_range,layer='Range')
+
+# Write rasters of mean and 95% quantile range of habitat suitability for each study area to ascii files
+writeRaster(scb_pred_mean,"/scb_results/scb_mean_fdep.asc",overwrite=T)
+writeRaster(scb_pred_range,"/scb_results/scb_95grange_fdep.asc",overwrite=T)
+
+# Notes:
+# Future predictions (2050 and 2100) across all of California for varying RCP (2.6, 4.5, 6.0, 8.5) scenarios follow similar code above using rf_mod and the corresponding environmental data for a given year and RCP
