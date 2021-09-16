@@ -1,0 +1,141 @@
+# Run Maxent model on each study area to predict associated suitable habitat
+# Study areas include: 
+  # g1 San Clemente Island
+  # g2 Tanner and Cortes Banks
+  # g3 Santa Catalina and Santa Barbara Islands
+  # g4 La Jolla, California
+  # g5 Palos Verdes, California
+  # scb Southern California Bight
+
+# Load libraries
+library(raster);library(rgdal);library(maptools);library(dismo);library(rJava)
+
+#Load environmental data for each study area
+layers1<-list.files(path="/EnvironmentalData/Group1",pattern='asc',full.names=TRUE)
+layers2<-list.files(path="/EnvironmentalData/Group2",pattern='asc',full.names=TRUE)
+layers3<-list.files(path="/EnvironmentalData/Group3",pattern='asc',full.names=TRUE)
+layers4<-list.files(path="/EnvironmentalData/Group4",pattern='asc',full.names=TRUE)
+layers5<-list.files(path="/EnvironmentalData/Group5",pattern='asc',full.names=TRUE)
+layers_scb<-list.files(path="/EnvironmentalData/SCB",pattern='asc',full.names=TRUE)
+
+
+#stack environmental layers for each study area
+layers1<-stack(layers1)
+layers2<-stack(layers2)
+layers3<-stack(layers3)
+layers4<-stack(layers4)
+layers5<-stack(layers5)
+layers_scb<-stack(layers_scb)
+
+#Load fishery-independent presence data for each study area (ensure species data is in same projection as env layers)
+spdata1<-read.csv("/PresenceData/g1.speciesdata.pr.csv",sep=",",header=T)
+spdata1<-spdata1[,c("Longitude","Latitude")]
+spdata2<-read.csv("/PresenceData/g2.speciesdata.pr.csv",sep=",",header=T)
+spdata2<-spdata2[,c("Longitude","Latitude")]
+spdata3<-read.csv("/PresenceData/g3.speciesdata.pr.csv",sep=",",header=T)
+spdata3<-spdata3[,c("Longitude","Latitude")]
+spdata4<-read.csv("/PresenceData/g4.speciesdata.pr.csv",sep=",",header=T)
+spdata4<-spdata4[,c("Longitude","Latitude")]
+spdata5<-read.csv("/PresenceData/g5.speciesdata.pr.csv",sep=",",header=T)
+spdata5<-spdata5[,c("Longitude","Latitude")]
+spdata_scb<-read.csv("/PresenceData/species.data.pr.csv",sep=",",header=T)
+spdata_scb<-spdata_scb[,c("Longitude","Latitude")]
+
+jar<-paste(system.file(package="dismo"),"/java/maxent.jar",sep='')
+
+#create background points for each study area
+backgr1 <- data.frame(rasterToPoints(layers1[[1]]))[,-3]
+backgr1 <- sample_n(backgr1,10000,replace=T)
+backgr2 <- data.frame(rasterToPoints(layers2[[1]]))[,-3]
+backgr2 <- sample_n(backgr2,10000,replace=T)
+backgr3 <- data.frame(rasterToPoints(layers3[[1]]))[,-3]
+backgr3 <- sample_n(backgr3,10000,replace=T)
+backgr4 <- data.frame(rasterToPoints(layers4[[1]]))[,-3]
+backgr4 <- sample_n(backgr4,10000,replace=T)
+backgr5 <- data.frame(rasterToPoints(layers5[[1]]))[,-3]
+backgr5 <- sample_n(backgr5,10000,replace=T)
+backgr_scb <- data.frame(rasterToPoints(layers_scb[[1]]))[,-3]
+backgr_scb <- sample_n(backgr_scb,10000,replace=T)
+
+colnames(backgr1) <-c("Longitude","Latitude")
+colnames(backgr2) <-c("Longitude","Latitude")
+colnames(backgr3) <-c("Longitude","Latitude")
+colnames(backgr4) <-c("Longitude","Latitude")
+colnames(backgr5) <-c("Longitude","Latitude")
+colnames(backgr_scb) <-c("Longitude","Latitude")
+
+# Run maxent model (replicates =100) for each study area (using the best beta multiplier value determined by modselection_regmult_featclass code)
+g1_mod<-maxent(layers1,spdata1,a=backgr1,args=c("randomseed","writeclampgrid","betamultiplier=1.0","responsecurves","jackknife","writeplotdata=TRUE","replicates=100","outputgrids=FALSE","appendtoresultsfile","replicatetype=Bootstrap","product=FALSE","threshold=FALSE","hinge=FALSE"),removeDuplicates=TRUE,path="/g1_results")
+g2_mod<-maxent(layers2,spdata2,a=backgr2,args=c("randomseed","writeclampgrid","betamultiplier=2.0","responsecurves","jackknife","writeplotdata=TRUE","replicates=100","outputgrids=FALSE","appendtoresultsfile","replicatetype=Bootstrap","product=FALSE","threshold=FALSE","hinge=FALSE"),removeDuplicates=TRUE,path="/g2_results")
+g3_mod<-maxent(layers3,spdata2,a=backgr3,args=c("randomseed","writeclampgrid","betamultiplier=1.0","responsecurves","jackknife","writeplotdata=TRUE","replicates=100","outputgrids=FALSE","appendtoresultsfile","replicatetype=Bootstrap","product=FALSE","threshold=FALSE","hinge=FALSE"),removeDuplicates=TRUE,path="/g3_results")
+g4_mod<-maxent(layers4,spdata2,a=backgr4,args=c("randomseed","writeclampgrid","betamultiplier=1.0","responsecurves","jackknife","writeplotdata=TRUE","replicates=100","outputgrids=FALSE","appendtoresultsfile","replicatetype=Bootstrap","product=FALSE","threshold=FALSE","hinge=FALSE"),removeDuplicates=TRUE,path="/g4_results")
+g5_mod<-maxent(layers5,spdata2,a=backgr5,args=c("randomseed","writeclampgrid","betamultiplier=1.0","responsecurves","jackknife","writeplotdata=TRUE","replicates=100","outputgrids=FALSE","appendtoresultsfile","replicatetype=Bootstrap","product=FALSE","threshold=FALSE","hinge=FALSE"),removeDuplicates=TRUE,path="/g5_results")
+scb_mod<-maxent(layers_scb,spdata2,a=backgr_scb,args=c("randomseed","writeclampgrid","betamultiplier=1.0","responsecurves","jackknife","writeplotdata=TRUE","replicates=100","outputgrids=FALSE","appendtoresultsfile","replicatetype=Bootstrap","product=FALSE","threshold=FALSE","hinge=FALSE"),removeDuplicates=TRUE,path="/g6_results")
+
+# Predict habitat suitability for each study area using respective models 
+g1_pred<-predict(g1_mod,layers1,args=c("outputformat=logistic"),progress='text',filename='g1_results/g1_pred.tif',overwrite=TRUE)
+g2_pred<-predict(g2_mod,layers2,args=c("outputformat=logistic"),progress='text',filename='g2_results/g2_pred.tif',overwrite=TRUE)
+g3_pred<-predict(g3_mod,layers3,args=c("outputformat=logistic"),progress='text',filename='g3_results/g3_pred.tif',overwrite=TRUE)
+g4_pred<-predict(g4_mod,layers4,args=c("outputformat=logistic"),progress='text',filename='g4_results/g4_pred.tif',overwrite=TRUE)
+g5_pred<-predict(g5_mod,layers5,args=c("outputformat=logistic"),progress='text',filename='g5_results/g5_pred.tif',overwrite=TRUE)
+scb_pred<-predict(scb_mod,layers_scb,args=c("outputformat=logistic"),progress='text',filename='scb_results/scb_pred.tif',overwrite=TRUE)
+
+# Calulate mean habitat suitability for each study area over 100 replicates 
+g1_pred_mean <- overlay(g1_pred,fun=mean)
+g2_pred_mean <- overlay(g2_pred,fun=mean)
+g3_pred_mean <- overlay(g3_pred,fun=mean)
+g4_pred_mean <- overlay(g4_pred,fun=mean)
+g5_pred_mean <- overlay(g5_pred,fun=mean)
+scb_pred_mean <- overlay(scb_pred,fun=mean)
+
+#Create functions to calculate 95% quantile range of predictions  
+q.025<-function(x){
+  quantile(x,probs=0.025,na.rm=T)
+}
+
+q.975<-function(x){
+  quantile(x,probs=0.975,na.rm=T)
+}
+
+#Calculate  95% quantile range of predictions 
+g1_pred_.025<-overlay(g1_pred,fun=q.025)
+g1_pred_.975<-overlay(g1_pred,fun=q.975)
+g1_pred_range<-g1_pred_.975-g1_pred_.025
+
+g2_pred_.025<-overlay(g2_pred,fun=q.025)
+g2_pred_.975<-overlay(g2_pred,fun=q.975)
+g2_pred_range<-g2_pred_.975-g2_pred_.025
+
+g3_pred_.025<-overlay(g3_pred,fun=q.025)
+g3_pred_.975<-overlay(g3_pred,fun=q.975)
+g3_pred_range<-g3_pred_.975-g3_pred_.025
+
+g4_pred_.025<-overlay(g4_pred,fun=q.025)
+g4_pred_.975<-overlay(g4_pred,fun=q.975)
+g4_pred_range<-g4_pred_.975-g4_pred_.025
+
+g5_pred_.025<-overlay(g5_pred,fun=q.025)
+g5_pred_.975<-overlay(g5_pred,fun=q.975)
+g5_pred_range<-g5_pred_.975-g5_pred_.025
+
+scb_pred_.025<-overlay(scb_pred,fun=q.025)
+scb_pred_.975<-overlay(scb_pred,fun=q.975)
+scb_pred_range<-scb_pred_.975-scb_pred_.025
+
+# Write rasters of mean and 95% quantile range of habitat suitability for each study area to ascii files
+writeRaster(g1_pred_mean,"/g1_results/g1_mean.asc",overwrite=T)
+writeRaster(g1_pred_range,"/g1_results/g1_95grange.asc",overwrite=T)
+writeRaster(g2_pred_mean,"/g2_results/g2_mean.asc",overwrite=T)
+writeRaster(g2_pred_range,"/g2_results/g2_95grange.asc",overwrite=T)
+writeRaster(g3_pred_mean,"/g3_results/g3_mean.asc",overwrite=T)
+writeRaster(g3_pred_range,"/g3_results/g3_95grange.asc",overwrite=T)
+writeRaster(g4_pred_mean,"/g4_results/g4_mean.asc",overwrite=T)
+writeRaster(g4_pred_range,"/g4_results/g4_95grange.asc",overwrite=T)
+writeRaster(g5_pred_mean,"/g5_results/g5_mean.asc",overwrite=T)
+writeRaster(g5_pred_range,"/g5_results/g5_95grange.asc",overwrite=T)
+writeRaster(scb_pred_mean,"/scb_results/scb_mean_find.asc",overwrite=T)
+writeRaster(scb_pred_range,"/scb_results/scb_95grange_find.asc",overwrite=T)
+
+# Notes:
+# Future predictions (2050 and 2100) across all of California for varying RCP (2.6, 4.5, 6.0, 8.5) scenarios follow similar code above using scb_mod and the corresponding environmental data for a given year and RCP
+
